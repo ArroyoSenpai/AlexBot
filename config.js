@@ -1,20 +1,18 @@
 module.exports = {
-  TOKEN: "null",//حط توكن البوت
-  ownerID: [""],//حط ايدي الاونر
-  botInvite: "",//حط ايدي البوت
-  supportServer: "",//حط رابط سيرفرك
-  mongodbURL: "mongodb://username:password@localhost:27017/databaseName
-",//حط رابط المنجو
-  status: '',//حط اسمك لو حابب
+  TOKEN: null, // توكن البوت الآن null
+  ownerID: [""], // ضع ايدي الأونر هنا
+  botInvite: "", // ضع رابط دعوة البوت هنا
+  supportServer: "", // ضع رابط السيرفر هنا
+  mongodbURL: "mongodb://username:password@localhost:27017/databaseName", // ضع رابط MongoDB هنا
+  status: '', // ضع اسمك أو الحالة التي تود أن يظهر بها البوت
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
-  errorLog: "",//حط روم المشاكل
-
+  errorLog: "", // ضع ايدي روم المشاكل هنا
 
   sponsor: {
     status: true,
-    url: "",//حط رابط سيرفرك
+    url: "", // ضع رابط السيرفر الخاص بالرعاية هنا
   },
 
   voteManager: {
