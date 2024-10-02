@@ -1,9 +1,9 @@
 module.exports = {
-  TOKEN: "",//حط توكن البوت
+  TOKEN: "null",//حط توكن البوت
   ownerID: [""],//حط ايدي الاونر
   botInvite: "",//حط ايدي البوت
   supportServer: "",//حط رابط سيرفرك
-  mongodbURL: "",//حط رابط المنجو
+  mongodbURL: "mongodb+srv://brokaa32:<123123zx>@brook.eivh8ho.mongodb.net/?retryWrites=true&w=majority&appName=Brook",//حط رابط المنجو
   status: '',//حط اسمك لو حابب
   commandsDir: './commands',
   language: "en",
